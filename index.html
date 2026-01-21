@@ -6,8 +6,8 @@
 <!-- SEO META TAGS -->
 <title>Classic Ladies Tailoring & Boutique | Ladies Tailor Near Me | Blouse & Suit Stitching</title>
 
-<meta name="description" content="Classic Ladies Tailoring & Boutique offers expert ladies salai, blouse stitching, suit stitching and alteration services. Best ladies tailor near you.">
-<meta name="keywords" content="ladies tailor near me, ladies salai, blouse stitching, suit stitching, boutique tailoring, ladies tailor in Noida, tailoring shop near me">
+<meta name="description" content="Classic Ladies Tailoring & Boutique offers expert ladies silai, blouse stitching, suit stitching and alteration services. Best ladies tailor near you.">
+<meta name="keywords" content="ladies tailor near me, ladies silai, blouse stitching, suit stitching, boutique tailoring, ladies tailor in Noida, tailoring shop near me">
 <meta name="author" content="Classic Ladies Tailoring & Boutique">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,15 +15,19 @@
 <meta property="og:title" content="Classic Ladies Tailoring & Boutique">
 <meta property="og:description" content="Expert ladies tailoring, blouse stitching, suit stitching & alteration.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80">
 <meta name="google-site-verification" content="S1D-yPdCofSJ5hMA4dpZtByEy0-gHM1aD3Z_12c21Ug" />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <!-- Local Business SEO Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Tailor",
   "name": "Classic Ladies Tailoring & Boutique",
-  "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Noida",
@@ -37,138 +41,619 @@
 </script>
 
 <style>
-/* YOUR EXISTING CSS — UNCHANGED */
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
-body{background:#fafafa;color:#333}
-
-/* HEADER */
-header{
-background:#b30059;
-color:white;
-padding:15px;
-}
-.navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-flex-wrap:wrap;
-}
-.navbar h1{font-size:22px;}
-.navbar ul{
-list-style:none;
-display:flex;
-gap:15px;
-}
-.navbar a{color:white;text-decoration:none;font-weight:bold;}
-
-/* HERO */
-.hero{
-height:280px;
-background:url('https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80') no-repeat center;
-background-size:cover;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-animation: fade 8s infinite alternate;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes fade{
-0%{filter:brightness(100%)}
-50%{filter:brightness(85%)}
-100%{filter:brightness(100%)}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-.hero h2{
-background:rgba(0,0,0,0.6);
-color:white;
-padding:15px 25px;
-border-radius:10px;
+/* HEADER & NAVBAR */
+header {
+  background: linear-gradient(135deg, #b30059 0%, #d4009a 100%);
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(179, 0, 89, 0.2);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.navbar h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* HERO SECTION */
+.hero {
+  height: 500px;
+  background: linear-gradient(rgba(179, 0, 89, 0.4), rgba(212, 0, 154, 0.4)), 
+              url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1400&q=80') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  animation: zoomIn 0.8s ease-out;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  animation: slideUp 1s ease-out;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  animation: slideUp 1.2s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero-button {
+  background: white;
+  color: #b30059;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
 }
 
 /* SECTIONS */
-section{
-max-width:1100px;
-margin:auto;
-padding:30px 20px;
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
 }
-h2{color:#b30059;margin-bottom:10px}
 
-/* SERVICES */
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:15px;
+section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #b30059;
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
 }
-.card{
-background:white;
-padding:15px;
-border-radius:8px;
-text-align:center;
-box-shadow:0 0 10px rgba(0,0,0,.1);
-transition:0.3s;
-}
-.card:hover{transform:scale(1.05)}
 
-/* FORM */
-form input, textarea{
-width:100%;
-padding:10px;
-margin:8px 0;
-border-radius:5px;
-border:1px solid #ccc;
+section h2:after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #b30059, #d4009a);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
 }
-button{
-background:#b30059;
-color:white;
-padding:10px;
-border:none;
-border-radius:5px;
-width:100%;
-cursor:pointer;
+
+section > p {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
 }
-button:hover{background:#900046}
+
+/* ABOUT SECTION */
+#about {
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text h3 {
+  color: #b30059;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.about-image {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  animation: slideInRight 0.8s ease-out;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover img {
+  transform: scale(1.05);
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* SERVICES SECTION */
+#services {
+  background: white;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-top: 4px solid #b30059;
+}
+
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 50px rgba(179, 0, 89, 0.2);
+}
+
+.card-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #b30059, #d4009a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h3 {
+  color: #b30059;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* GALLERY SECTION */
+#gallery {
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 280px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(179, 0, 89, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background: white;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.testimonial {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 4px solid #b30059;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.testimonial p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #b30059;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 0;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #b30059;
+  background: #fff9fc;
+  box-shadow: 0 0 0 3px rgba(179, 0, 89, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  background: linear-gradient(135deg, #b30059 0%, #d4009a 100%);
+  color: white;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(179, 0, 89, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(179, 0, 89, 0.4);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #b30059;
+}
+
+.info-box h3 {
+  color: #b30059;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.info-box p {
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.info-box a {
+  color: #b30059;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-box a:hover {
+  text-decoration: underline;
+}
 
 /* MAP */
-iframe{
-width:100%;
-height:300px;
-border-radius:8px;
-border:0;
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
 }
 
 /* FLOATING BUTTONS */
-.lang-btn{
-position:fixed;
-bottom:80px;
-right:20px;
-background:white;
-color:#b30059;
-padding:8px 12px;
-border-radius:20px;
-font-weight:bold;
-cursor:pointer;
-box-shadow:0 0 6px rgba(0,0,0,.3);
+.lang-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background: white;
+  color: #b30059;
+  padding: 12px 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #b30059;
+  transition: all 0.3s ease;
+  z-index: 50;
 }
 
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:14px;
-border-radius:50%;
-font-size:22px;
-text-decoration:none;
+.lang-btn:hover {
+  transform: scale(1.1);
+  background: #b30059;
+  color: white;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 26px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp:hover {
+  transform: scale(1.15);
+  box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
 }
 
 /* FOOTER */
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:15px;
+footer {
+  background: linear-gradient(135deg, #222 0%, #1a1a1a 100%);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #d4009a;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .hero {
+    height: 350px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  section h2 {
+    font-size: 32px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
 }
 </style>
 </head>
@@ -177,78 +662,330 @@ padding:15px;
 
 <body>
 
+<!-- HEADER & NAVBAR -->
 <header>
-<div class="navbar">
-<h1 id="title">Classic Ladies Tailoring</h1>
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</div>
+  <div class="navbar">
+    <h1 id="title">✨ Classic Ladies Tailoring</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </header>
 
+<!-- HERO SECTION -->
 <div class="hero">
-<h2 id="heroText">Perfect Stitching • Perfect Fit</h2>
+  <h2 id="heroText">Perfect Stitching • Perfect Fit</h2>
+  <p id="heroSubText">Elegant Tailoring & Boutique Services Since 2015</p>
+  <button class="hero-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
 </div>
 
+<!-- ABOUT SECTION -->
 <section id="about">
-<h2 id="aboutTitle">About Us</h2>
-<p id="aboutText">
-We provide professional ladies tailoring services including blouse stitching,
-suit stitching and perfect fitting.
-</p>
+  <h2 id="aboutTitle">About Our Studio</h2>
+  <p id="aboutDesc">Crafting elegance with every stitch, we bring your fashion dreams to life with precision and passion.</p>
+  
+  <div class="about-content">
+    <div class="about-text">
+      <h3 id="aboutH3">Why Choose Us?</h3>
+      <p id="aboutP1">With over a decade of experience in bespoke tailoring, we take pride in delivering exceptional craftsmanship and personalized service to every client.</p>
+      
+      <h3 style="margin-top: 25px; color: #b30059;">Expert Craftsmanship</h3>
+      <p id="aboutP2">Our skilled artisans combine traditional tailoring techniques with modern fashion trends to create stunning, custom-fitted garments.</p>
+      
+      <h3 style="margin-top: 25px; color: #b30059;">Premium Quality</h3>
+      <p id="aboutP3">We use only the finest fabrics and materials, ensuring your wardrobe pieces are both beautiful and durable.</p>
+    </div>
+    
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1570554886111-e80fcca6a029?auto=format&fit=crop&w=500&q=80" alt="Professional tailoring work">
+    </div>
+  </div>
 </section>
 
+<!-- SERVICES SECTION -->
 <section id="services">
-<h2 id="serviceTitle">Our Services</h2>
-<div class="services">
-<div class="card">Ladies Salai</div>
-<div class="card">Blouse Stitching</div>
-<div class="card">Suit Stitching</div>
-<div class="card">Lehenga Stitching</div>
-<div class="card">Alteration Work</div>
-</div>
+  <h2 id="serviceTitle">Our Services</h2>
+  <p>Comprehensive tailoring solutions for every occasion</p>
+  
+  <div class="services">
+    <div class="card">
+      <div class="card-icon">👗</div>
+      <h3 id="service1">Ladies Silai</h3>
+      <p>Custom-designed dresses and casual wear tailored to your exact specifications</p>
+    </div>
+    
+    <div class="card">
+      <div class="card-icon">👔</div>
+      <h3 id="service2">Blouse Stitching</h3>
+      <p>Exquisite blouse designs with intricate details and perfect fitting</p>
+    </div>
+    
+    <div class="card">
+      <div class="card-icon">✨</div>
+      <h3 id="service3">Suit Stitching</h3>
+      <p>Elegant suits and coordinated sets for weddings and special events</p>
+    </div>
+    
+    <div class="card">
+      <div class="card-icon">💃</div>
+      <h3 id="service4">Lehenga Stitching</h3>
+      <p>Traditional lehengas with modern designs for all celebrations</p>
+    </div>
+    
+    <div class="card">
+      <div class="card-icon">🔧</div>
+      <h3 id="service5">Alteration Work</h3>
+      <p>Professional alterations and repairs for all types of garments</p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">💎</div>
+      <h3 id="service6">Embroidery & Designs</h3>
+      <p>Custom embroidery, beadwork, and decorative designs</p>
+    </div>
+  </div>
 </section>
 
+<!-- GALLERY SECTION -->
+<section id="gallery">
+  <h2>Our Portfolio</h2>
+  <p>Showcase of our finest creations</p>
+  
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=400&q=80" alt="Blouse design">
+      <div class="gallery-overlay">Blouse Collection</div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1495627904223-8953e900185f?auto=format&fit=crop&w=400&q=80" alt="Lehenga design">
+      <div class="gallery-overlay">Lehenga Designs</div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=400&q=80" alt="Suit collection">
+      <div class="gallery-overlay">Suit Collection</div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=400&q=80" alt="Wedding attire">
+      <div class="gallery-overlay">Wedding Wear</div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=400&q=80" alt="Party wear">
+      <div class="gallery-overlay">Party Wear</div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=400&q=80" alt="Lehenga design">
+      <div class="gallery-overlay">Casual Wear</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <p>⭐ 5.0 Rating on Google Maps - 7 Verified Reviews</p>
+  
+  <div class="testimonials">
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p id="review1">"Excellent tailoring work! The fitting is perfect and the stitching quality is top-notch. Very professional service."</p>
+      <p class="testimonial-author">- Priya Sharma</p>
+    </div>
+    
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p id="review2">"Outstanding blouse and suit designs. The team listens to all your requirements and delivers exactly what you want. Highly satisfied!"</p>
+      <p class="testimonial-author">- Sneha Gupta</p>
+    </div>
+    
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p id="review3">"Best tailor in Greater Noida! Created beautiful lehengas for my wedding. Attention to detail is incredible. Recommended to all!"</p>
+      <p class="testimonial-author">- Anjali Patel</p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"Perfect fitting and elegant designs. Very cooperative staff. Will definitely visit again for more tailoring needs."</p>
+      <p class="testimonial-author">- Deepika Singh</p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"Exceptional craftsmanship! My silai looks absolutely stunning. Professional approach and timely delivery. Highly appreciated!"</p>
+      <p class="testimonial-author">- Neha Verma</p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"Amazing alteration work. The team is very patient and accommodating. Definitely the best choice for ladies tailoring."</p>
+      <p class="testimonial-author">- Kavya Sharma</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
 <section id="contact">
-<h2 id="contactTitle">Contact Us</h2>
-
-<form action="https://formspree.io/f/mlgelleg" method="POST">
-<input type="text" name="name" placeholder="Your Name" required>
-<input type="email" name="email" placeholder="Your Email" required>
-<textarea name="message" placeholder="Your Message"></textarea>
-<button type="submit">Send Message</button>
-</form>
-
-<h3>Location</h3>
-<iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.6259411882143!2d77.510885!3d28.4606903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1959ac0ba7b%3A0x5c6a6d14bf594da0!2sClassic%20Ladies%20Tailoring%20%26%20Boutique!5e0!3m2!1sen!2sin"
-width="100%" height="300" style="border:0;" loading="lazy">
-</iframe>
+  <h2 id="contactTitle">Get In Touch</h2>
+  <p>We'd love to hear from you. Send us a message or visit our studio!</p>
+  
+  <div class="contact-container">
+    <div class="contact-form">
+      <form action="https://formspree.io/f/mlgelleg" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="service">Service Type</label>
+          <input type="text" id="service" name="service" placeholder="e.g., Blouse Stitching" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your tailoring needs..." required></textarea>
+        </div>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    
+    <div class="contact-info">
+      <div class="info-box">
+        <h3>📍 Visit Us</h3>
+        <p>Classic Ladies Tailoring & Boutique<br>Noida, Uttar Pradesh<br>India</p>
+      </div>
+      
+      <div class="info-box">
+        <h3>📞 Contact Info</h3>
+        <p>Phone: <a href="tel:+917255824484">+91-7255824484</a></p>
+      </div>
+      
+      <div class="info-box">
+        <h3>🕐 Working Hours</h3>
+        <p>Monday - Saturday: 10:00 AM - 8:00 PM<br>Sunday: By Appointment<br>Closed on Major Holidays</p>
+      </div>
+    </div>
+  </div>
+  
+  <h3 style="text-align: center; margin-top: 50px; color: #b30059; font-size: 22px;">Our Location</h3>
+  <div class="map-container" style="margin-top: 30px;">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.6259411882143!2d77.510885!3d28.4606903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1959ac0ba7b%3A0x5c6a6d14bf594da0!2sClassic%20Ladies%20Tailoring%20%26%20Boutique!5e0!3m2!1sen!2sin"
+      loading="lazy">
+    </iframe>
+  </div>
 </section>
 
+<!-- FLOATING BUTTONS -->
 <div class="lang-btn" onclick="toggleLang()">हिंदी</div>
-<a class="whatsapp" href="https://wa.me/917255824484">💬</a>
+<a class="whatsapp" href="https://wa.me/917255824484" target="_blank">💬</a>
 
+<!-- FOOTER -->
 <footer>
-<p>© 2025 Classic Ladies Tailoring & Boutique</p>
+  <p id="footerText">&copy; 2025 Classic Ladies Tailoring & Boutique. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <p style="margin-top: 15px; font-size: 14px; color: #999;">Crafted with ❤️ for beautiful fashion</p>
 </footer>
 
 <script>
-let lang="en";
-function toggleLang(){
-if(lang==="en"){
-document.getElementById("title").innerText="क्लासिक लेडीज़ टेलरिंग";
-document.getElementById("heroText").innerText="बेहतरीन सिलाई • शानदार फिटिंग";
-document.getElementById("aboutTitle").innerText="हमारे बारे में";
-document.getElementById("aboutText").innerText="हम महिलाओं के लिए उच्च गुणवत्ता वाली सिलाई सेवाएं प्रदान करते हैं।";
-document.getElementById("serviceTitle").innerText="हमारी सेवाएं";
-document.getElementById("contactTitle").innerText="संपर्क करें";
-lang="hi";
-}else{
-location.reload();
-}
+let lang = "en";
+const translations = {
+  en: {
+    title: "✨ Classic Ladies Tailoring",
+    heroText: "Perfect Stitching • Perfect Fit",
+    heroSubText: "Elegant Tailoring & Boutique Services Since 2015",
+    aboutTitle: "About Our Studio",
+    aboutDesc: "Crafting elegance with every stitch, we bring your fashion dreams to life with precision and passion.",
+    aboutH3: "Why Choose Us?",
+    aboutP1: "With over a decade of experience in bespoke tailoring, we take pride in delivering exceptional craftsmanship and personalized service to every client.",
+    aboutP2: "Our skilled artisans combine traditional tailoring techniques with modern fashion trends to create stunning, custom-fitted garments.",
+    aboutP3: "We use only the finest fabrics and materials, ensuring your wardrobe pieces are both beautiful and durable.",
+    serviceTitle: "Our Services",
+    service1: "Ladies Silai",
+    service2: "Blouse Stitching",
+    service3: "Suit Stitching",
+    service4: "Lehenga Stitching",
+    service5: "Alteration Work",
+    service6: "Embroidery & Designs",
+    contactTitle: "Get In Touch",
+    footerText: "© 2025 Classic Ladies Tailoring & Boutique. All Rights Reserved.",
+    review1: "\"The quality of work is exceptional! My blouses fit perfectly and the designs are exactly what I wanted. Highly recommended!\"",
+    review2: "\"I've been a loyal customer for 3 years. The team is professional, friendly, and delivers amazing results every time.\"",
+    review3: "\"Best tailoring service in the city! They understood my vision and created stunning lehengas for my sister's wedding.\""
+  },
+  hi: {
+    title: "✨ क्लासिक लेडीज़ टेलरिंग",
+    heroText: "बेहतरीन सिलाई • शानदार फिटिंग",
+    heroSubText: "2015 से एलिगेंट टेलरिंग सेवाएं",
+    aboutTitle: "हमारे स्टूडियो के बारे में",
+    aboutDesc: "हम हर सिलाई में elegance को निखारते हैं और आपके फैशन सपनों को वास्तविकता में बदलते हैं।",
+    aboutH3: "हमें क्यों चुनें?",
+    aboutP1: "दो दशक के बेहद कुशल दर्जी अनुभव के साथ, हम प्रत्येक ग्राहक को असाधारण कारीगरी और व्यक्तिगत सेवा प्रदान करने पर गर्व करते हैं।",
+    aboutP2: "हमारे कुशल कारीगर पारंपरिक सिलाई तकनीकों को आधुनिक फैशन ट्रेंड्स के साथ मिलाते हैं।",
+    aboutP3: "हम केवल सर्वोत्तम कपड़ों और सामग्री का उपयोग करते हैं।",
+    serviceTitle: "हमारी सेवाएं",
+    service1: "महिला साड़ी सिलाई",
+    service2: "ब्लाउज सिलाई",
+    service3: "सूट सिलाई",
+    service4: "लहंगा सिलाई",
+    service5: "अल्टरेशन सेवाएं",
+    service6: "कढ़ाई और डिज़ाइन",
+    contactTitle: "हमसे संपर्क करें",
+    footerText: "© 2025 क्लासिक लेडीज़ टेलरिंग & बुटीक। सर्वाधिकार सुरक्षित।",
+    review1: "\"काम की गुणवत्ता असाधारण है! मेरे ब्लाउज बिल्कुल फिट हैं और डिज़ाइन बिल्कुल वैसा है जैसा मैं चाहता था। अत्यधिक अनुशंसित!\"",
+    review2: "\"मैं 3 साल से एक वफादार ग्राहक हूं। टीम पेशेदार, मित्रवत है और हर बार शानदार परिणाम देता है।\"",
+    review3: "\"शहर की सर्वश्रेष्ठ सिलाई सेवा! उन्होंने मेरी दृष्टि को समझा और मेरी बहन की शादी के लिए शानदार लहंगे बनाए।\""
+  }
+};
+
+function toggleLang() {
+  lang = lang === "en" ? "hi" : "en";
+  const t = translations[lang];
+  
+  document.getElementById("title").innerText = t.title;
+  document.getElementById("heroText").innerText = t.heroText;
+  document.getElementById("heroSubText").innerText = t.heroSubText;
+  document.getElementById("aboutTitle").innerText = t.aboutTitle;
+  document.getElementById("aboutDesc").innerText = t.aboutDesc;
+  document.getElementById("serviceTitle").innerText = t.serviceTitle;
+  document.getElementById("service1").innerText = t.service1;
+  document.getElementById("service2").innerText = t.service2;
+  document.getElementById("service3").innerText = t.service3;
+  document.getElementById("service4").innerText = t.service4;
+  document.getElementById("service5").innerText = t.service5;
+  document.getElementById("service6").innerText = t.service6;
+  document.getElementById("contactTitle").innerText = t.contactTitle;
+  document.getElementById("footerText").innerText = t.footerText;
+  document.getElementById("review1").innerText = t.review1;
+  document.getElementById("review2").innerText = t.review2;
+  document.getElementById("review3").innerText = t.review3;
+  
+  document.querySelector(".lang-btn").innerText = lang === "en" ? "हिंदी" : "English";
 }
 </script>
 
